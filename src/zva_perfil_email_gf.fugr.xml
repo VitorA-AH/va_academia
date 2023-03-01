@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>grupo de funçoes perfil colaborador mail</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZVA_PERFIL_EMAIL_GFTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZVA_PERFIL_EMAIL_GF</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZVA_PERFIL_EMAIL_WS</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>serviço perfil no email</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_NUM_COL</PARAMETER>
+       <TYP>PERSNO</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ES_PERFIL</PARAMETER>
+       <TYP>ZVA_S_PERFIL_EMAIL</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EV_STATUS</PARAMETER>
+       <TYP>CHAR50</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_NUM_COL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Seleções standard para reporting de dados mestre HR</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ES_PERFIL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>estrutura email perfil</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_STATUS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Comentário</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

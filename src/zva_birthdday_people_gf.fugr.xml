@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>grupo funçoes serviço aniversariantes</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZVA_BIRTHDDAY_PEOPLE_GFTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZVA_BIRTHDDAY_PEOPLE_GF</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZVA_BIRTHDDAY_PEOPLE_WS</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Web service aniversariantes</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_BIRTHDAY_PEOPLE</PARAMETER>
+       <TYP>ZVA_TT_BIRTHDAY_PEOPLE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ET_BIRTHDAY_PEOPLE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabela exportaçao serviço email aniversariantes</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
